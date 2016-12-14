@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "583619411208",
+    "project_id": "sacsandroid"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583619411208:android:ec6a0ecc944c39fa",
+        "android_client_info": {
+          "package_name": "us.in.k12.sacs.sacsandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjasBGqxJtNT_55z-uYjL5TA3uBl4JCAs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
