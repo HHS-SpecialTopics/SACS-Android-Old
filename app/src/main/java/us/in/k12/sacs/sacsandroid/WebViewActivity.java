@@ -109,8 +109,20 @@ public class WebViewActivity extends AppCompatActivity {
         web.setWebViewClient(new WebViewClient() {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
 
-                view.loadUrl(url);
-                return false;
+                if (url.startsWith("sacs://")) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            @Override
+            public void onLoadResource(WebView view, String url) {
+
+                if(url.contentEquals("sacs://settings")){
+
+                    // Load settings
+                }
             }
         });
     }
