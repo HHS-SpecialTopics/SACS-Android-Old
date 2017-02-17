@@ -15,10 +15,7 @@ import com.onesignal.OneSignal;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class SplashActivity extends AppCompatActivity {
@@ -64,7 +61,7 @@ public class SplashActivity extends AppCompatActivity {
                 is.close();
             }
 
-            InputStream is = new URL("https://sacs-backend-chrisblutz.c9users.io/wp-content/uploads/2016/12/SplashScreen.png").openConnection().getInputStream();
+            InputStream is = new URL("https://sacs.school/wp-content/uploads/2016/12/SplashScreen.png").openConnection().getInputStream();
             if (is != null) {
                 FileOutputStream os = new FileOutputStream(file);
 
